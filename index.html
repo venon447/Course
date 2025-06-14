@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Venono Course</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    header {
+      background-color: #1e1e2f;
+      padding: 40px 20px;
+      color: #fff;
+      text-align: center;
+    }
+
+    header img {
+      max-width: 100%;
+      height: auto;
+      margin-top: 20px;
+      border-radius: 12px;
+    }
+
+    nav {
+      background-color: #29293d;
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      padding: 12px 0;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 8px 12px;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #1e1e2f;
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    .courses {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+
+    .course-card {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .course-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    }
+
+    .testimonial {
+      font-style: italic;
+      margin-top: 10px;
+      color: #555;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #1e1e2f;
+      color: white;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Venono Course</h1>
+    <p>Learn, Grow, and Excel in Your Passion</p>
+    <img src="https://via.placeholder.com/1000x300?text=Venono+Courses" alt="Venono Banner">
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#courses">Courses</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      Venono Course is a platform built especially for beginner editors working hard to improve their creative skills.
+      If you've discovered this website, you're in the right place!
+      Our mission is to help new creators by offering free editing resources like shakes, effects, and animated stickers,
+      along with easy-to-follow tutorials.
+    </p>
+  </section>
+
+  <section id="courses">
+    <h2>Our Courses</h2>
+    <div class="courses">
+      <div class="course-card">
+        <h3>Web Development Bootcamp</h3>
+        <p>Learn HTML, CSS, JavaScript, and React from scratch. Perfect for beginners.</p>
+      </div>
+      <div class="course-card">
+        <h3>Digital Marketing Mastery</h3>
+        <p>Master SEO, social media, email marketing, and more in just 6 weeks.</p>
+      </div>
+      <div class="course-card">
+        <h3>Graphic Design Essentials</h3>
+        <p>Unlock your creativity with Adobe Photoshop, Illustrator, and Canva.</p>
+      </div>
+      <div class="course-card">
+        <h3>Editing for Beginners</h3>
+        <p>Free shakes, transitions, and sticker packs to boost your video edits fast.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <h2>What Our Students Say</h2>
+    <p class="testimonial">"Venono Course transformed my career. The instructors are top-notch!" – Aisha R.</p>
+    <p class="testimonial">"Easy to follow, affordable, and incredibly useful." – Marcus L.</p>
+    <p class="testimonial">"Loved the design and pacing. Great value for the price." – Chen W.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:svenono28@gmail.com">svenono28@gmail.com</a></p>
+    <p>Phone: +91 79921 43193</p>
+    <p>Follow us on social media: @Venono._7</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Venono Course. All rights reserved.
+  </footer>
+
+</body>
+</html>
